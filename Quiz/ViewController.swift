@@ -12,7 +12,9 @@ class ViewController: UIViewController {
     @IBOutlet var bgView: UIView!
     @IBOutlet weak var answerLabel: UILabel!
     @IBOutlet weak var answerInput: UITextField!
+    @IBOutlet weak var nextQuestionBtn: UIButton!
     @IBOutlet weak var questionLabel: UILabel!
+
 
     
     override func viewDidLoad() {
@@ -32,6 +34,7 @@ class ViewController: UIViewController {
         Question(id: 2, question: "9 * 9", answer: "81"),
         Question(id: 3, question: "81 - 80", answer: "1")
     ]
+    
     
     var currentQuestion: Question?
     var isCorrect = false
@@ -59,6 +62,10 @@ class ViewController: UIViewController {
             changeBgColor(color: .systemRed)
             isCorrect = false
         }
+        
+        if isCorrect {
+            toggleNextQuestionBtn(button: nextQuestionBtn)
+        }
     }
 
     @IBAction func showAnswerBtn(_ sender: UIButton) {
@@ -80,6 +87,9 @@ class ViewController: UIViewController {
             questionLabel.text = currentQuestion?.question
             isCorrect = false
         }
+        
+        nextQuestionBtn.isEnabled = false
+
     }
     
     func changeBgColor(color: UIColor) {
@@ -92,7 +102,9 @@ class ViewController: UIViewController {
         self.present(alert, animated: true, completion: nil)
     }
     
-    
+    func toggleNextQuestionBtn(button: UIButton) {
+        button.isEnabled = !false
+    }
     
 }
 

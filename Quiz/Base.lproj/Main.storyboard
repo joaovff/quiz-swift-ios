@@ -28,7 +28,7 @@
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Next Question"/>
                                 <connections>
-                                    <action selector="nextQuestionBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="wdc-q8-aiJ"/>
+                                    <action selector="nextQuestionBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="f7I-NW-vcK"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sOB-6k-paq">
@@ -71,6 +71,7 @@
                         <outlet property="answerInput" destination="TEU-1U-XnK" id="4A6-6k-kch"/>
                         <outlet property="answerLabel" destination="sFp-2g-1Zr" id="Xa1-rb-jwo"/>
                         <outlet property="bgView" destination="8bC-Xf-vdC" id="qJM-Ye-enS"/>
+                        <outlet property="nextQuestionBtn" destination="oqM-0C-bJg" id="8QM-gW-dOl"/>
                         <outlet property="questionLabel" destination="991-Tu-Dd9" id="Ecc-J1-JGh"/>
                     </connections>
                 </viewController>
