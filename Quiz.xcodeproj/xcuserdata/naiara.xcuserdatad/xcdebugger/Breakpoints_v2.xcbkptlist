@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "9B29D7F2-8561-46F1-B900-FE80C7577955"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1167A940-350F-49E7-A33B-4550051253B5"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Quiz/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "29"
+            endingLineNumber = "29"
+            landmarkName = "ViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "1167A940-350F-49E7-A33B-4550051253B5 - 53410f1e091803ff"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Quiz.ViewController.questions.getter : Swift.Array&lt;Quiz.ViewController.Question&gt;"
+                  moduleName = "Quiz"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/naiara/Desktop/IOS%20Development/Quiz/Quiz/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "25"
+                  endingLineNumber = "25"
+                  offsetFromSymbolStart = "45">
+               </Location>
+               <Location
+                  uuid = "1167A940-350F-49E7-A33B-4550051253B5 - ddee48d118e4d982"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Quiz.ViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; Quiz.ViewController"
+                  moduleName = "Quiz"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/naiara/Desktop/IOS%20Development/Quiz/Quiz/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "25"
+                  endingLineNumber = "25"
+                  offsetFromSymbolStart = "230">
+               </Location>
+               <Location
+                  uuid = "1167A940-350F-49E7-A33B-4550051253B5 - 607c422cd6219d81"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Quiz.ViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;Quiz.ViewController&gt;"
+                  moduleName = "Quiz"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/naiara/Desktop/IOS%20Development/Quiz/Quiz/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "25"
+                  endingLineNumber = "25"
+                  offsetFromSymbolStart = "172">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
