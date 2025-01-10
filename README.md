@@ -47,8 +47,7 @@ A simple Quiz app built with Swift and UIKit. This app allows users to answer mu
 1. Clone the repository:
    ```bash
    git clone https://github.com/your-username/quiz-app.git
-   cd quiz-app
-  ```
+   cd quiz-app```
 
 2. Clone the repository:
     Open Quiz.xcodeproj in Xcode.
