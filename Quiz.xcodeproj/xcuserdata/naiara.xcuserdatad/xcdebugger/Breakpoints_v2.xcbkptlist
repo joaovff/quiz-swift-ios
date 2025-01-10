@@ -14,10 +14,10 @@
             filePath = "Quiz/ViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "31"
-            endingLineNumber = "31"
-            landmarkName = "questions"
-            landmarkType = "24">
+            startingLineNumber = "28"
+            endingLineNumber = "28"
+            landmarkName = "ViewController"
+            landmarkType = "3">
             <Locations>
                <Location
                   uuid = "1167A940-350F-49E7-A33B-4550051253B5 - 53410f1e091803ff"
